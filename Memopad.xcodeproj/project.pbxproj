@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1AE34D2143B8E10074C8C7 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1AE34C2143B8E10074C8C7 /* ShareViewController.swift */; };
+		DB1C30B2215611AD00035A51 /* インストールアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1C30B1215611AD00035A51 /* インストールアイコン.png */; };
+		DB1C30B42156137E00035A51 /* ReadQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C30B32156137E00035A51 /* ReadQRViewController.swift */; };
+		DB449AB3217B409300B932E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB449AB2217B409300B932E8 /* LaunchScreen.storyboard */; };
+		DB449AB5217B40B400B932E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB449AB4217B40B400B932E8 /* Main.storyboard */; };
+		DB63489E20E77552001A7614 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63489D20E77552001A7614 /* CalendarViewController.swift */; };
+		DB6A43A72127D29E00731B32 /* GenEiLateMin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB6A43A62127D29D00731B32 /* GenEiLateMin.otf */; };
+		DB6A43A9212909E600731B32 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A43A8212909E600731B32 /* ContentViewController.swift */; };
+		DB6A43AB212A609200731B32 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A43AA212A609200731B32 /* Date+.swift */; };
+		DB6B6E2F217B205400B6E707 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B6E2E217B205400B6E707 /* SettingViewController.swift */; };
+		DBB8A55B20E76645001EA27C /* カレンダーのフリーアイコン2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB8A55A20E76644001EA27C /* カレンダーのフリーアイコン2.png */; };
+		DBB8A55D20E76A25001EA27C /* rounded-mplus-2c-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBB8A55C20E76A24001EA27C /* rounded-mplus-2c-bold.ttf */; };
+		DBD705D42130F5AA0018C977 /* アンケートシートのフリーアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD705D32130F5AA0018C977 /* アンケートシートのフリーアイコン.png */; };
+		DBD705D62130F5BC0018C977 /* 設定の歯車アイコン　その2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD705D52130F5BC0018C977 /* 設定の歯車アイコン　その2.png */; };
+		DBD705D821311D130018C977 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD705D721311D130018C977 /* TableViewController.swift */; };
+		DBEC978A20AFF13A004A4D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC978920AFF13A004A4D44 /* AppDelegate.swift */; };
+		DBEC978C20AFF13A004A4D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC978B20AFF13A004A4D44 /* ViewController.swift */; };
+		DBEC979120AFF13D004A4D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEC979020AFF13D004A4D44 /* Assets.xcassets */; };
+		DBEC979F20AFF13D004A4D44 /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC979E20AFF13D004A4D44 /* MemopadTests.swift */; };
+		DBEC97AA20AFF13D004A4D44 /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC97A920AFF13D004A4D44 /* MemopadUITests.swift */; };
+		DBEC97B820AFF282004A4D44 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC97B720AFF282004A4D44 /* MemoViewController.swift */; };
+		DBEC97BA20B03414004A4D44 /* かわいい羽根のペンのアイコン素材2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEC97B920B03414004A4D44 /* かわいい羽根のペンのアイコン素材2.png */; };
+		DBEC97BC20B03498004A4D44 /* シェイクアイコン2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEC97BB20B03498004A4D44 /* シェイクアイコン2.png */; };
+		DBEC97BF20B0FD4B004A4D44 /* カメラアイコン9.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEC97BD20B0FD4B004A4D44 /* カメラアイコン9.png */; };
+		DBEC97C020B0FD4B004A4D44 /* 写真アイコン8.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEC97BE20B0FD4B004A4D44 /* 写真アイコン8.png */; };
+		DBFA7036217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA7035217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBEC979B20AFF13D004A4D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBEC977E20AFF13A004A4D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBEC978520AFF13A004A4D44;
+			remoteInfo = Memopad;
+		};
+		DBEC97A620AFF13D004A4D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBEC977E20AFF13A004A4D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBEC978520AFF13A004A4D44;
+			remoteInfo = Memopad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1AE34C2143B8E10074C8C7 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		DB1C30B1215611AD00035A51 /* インストールアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "インストールアイコン.png"; sourceTree = "<group>"; };
+		DB1C30B32156137E00035A51 /* ReadQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadQRViewController.swift; sourceTree = "<group>"; };
+		DB449AB2217B409300B932E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB449AB4217B40B400B932E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB63489D20E77552001A7614 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		DB6A43A62127D29D00731B32 /* GenEiLateMin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenEiLateMin.otf; sourceTree = "<group>"; };
+		DB6A43A8212909E600731B32 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		DB6A43AA212A609200731B32 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		DB6B6E2E217B205400B6E707 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		DBB8A55A20E76644001EA27C /* カレンダーのフリーアイコン2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カレンダーのフリーアイコン2.png"; sourceTree = "<group>"; };
+		DBB8A55C20E76A24001EA27C /* rounded-mplus-2c-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rounded-mplus-2c-bold.ttf"; sourceTree = "<group>"; };
+		DBD705D32130F5AA0018C977 /* アンケートシートのフリーアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アンケートシートのフリーアイコン.png"; sourceTree = "<group>"; };
+		DBD705D52130F5BC0018C977 /* 設定の歯車アイコン　その2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "設定の歯車アイコン　その2.png"; sourceTree = "<group>"; };
+		DBD705D721311D130018C977 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DBEC978620AFF13A004A4D44 /* Memopad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memopad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEC978920AFF13A004A4D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBEC978B20AFF13A004A4D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBEC979020AFF13D004A4D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBEC979520AFF13D004A4D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEC979A20AFF13D004A4D44 /* MemopadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEC979E20AFF13D004A4D44 /* MemopadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadTests.swift; sourceTree = "<group>"; };
+		DBEC97A020AFF13D004A4D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEC97A520AFF13D004A4D44 /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEC97A920AFF13D004A4D44 /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
+		DBEC97AB20AFF13D004A4D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEC97B720AFF282004A4D44 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		DBEC97B920B03414004A4D44 /* かわいい羽根のペンのアイコン素材2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "かわいい羽根のペンのアイコン素材2.png"; sourceTree = "<group>"; };
+		DBEC97BB20B03498004A4D44 /* シェイクアイコン2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "シェイクアイコン2.png"; sourceTree = "<group>"; };
+		DBEC97BD20B0FD4B004A4D44 /* カメラアイコン9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カメラアイコン9.png"; sourceTree = "<group>"; };
+		DBEC97BE20B0FD4B004A4D44 /* 写真アイコン8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "写真アイコン8.png"; sourceTree = "<group>"; };
+		DBFA7035217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ふたの開いたゴミ箱のアイコン.png"; path = "../../../../ふたの開いたゴミ箱のアイコン.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBEC978320AFF13A004A4D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEC979720AFF13D004A4D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEC97A220AFF13D004A4D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB52FA05217B3F7500A8B7AA /* Memopad */ = {
+			isa = PBXGroup;
+			children = (
+				DB1C30B1215611AD00035A51 /* インストールアイコン.png */,
+				DBB8A55C20E76A24001EA27C /* rounded-mplus-2c-bold.ttf */,
+				DBB8A55A20E76644001EA27C /* カレンダーのフリーアイコン2.png */,
+				DB6A43A62127D29D00731B32 /* GenEiLateMin.otf */,
+				DBEC97BD20B0FD4B004A4D44 /* カメラアイコン9.png */,
+				DBEC97BE20B0FD4B004A4D44 /* 写真アイコン8.png */,
+				DBEC97BB20B03498004A4D44 /* シェイクアイコン2.png */,
+				DBFA7035217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png */,
+				DBD705D52130F5BC0018C977 /* 設定の歯車アイコン　その2.png */,
+				DBD705D32130F5AA0018C977 /* アンケートシートのフリーアイコン.png */,
+				DBEC97B920B03414004A4D44 /* かわいい羽根のペンのアイコン素材2.png */,
+				DBEC978920AFF13A004A4D44 /* AppDelegate.swift */,
+				DBEC978B20AFF13A004A4D44 /* ViewController.swift */,
+				DB449AB4217B40B400B932E8 /* Main.storyboard */,
+				DBEC979020AFF13D004A4D44 /* Assets.xcassets */,
+				DB449AB2217B409300B932E8 /* LaunchScreen.storyboard */,
+				DBEC979520AFF13D004A4D44 /* Info.plist */,
+				DBEC97B720AFF282004A4D44 /* MemoViewController.swift */,
+				DB63489D20E77552001A7614 /* CalendarViewController.swift */,
+				DB6A43A8212909E600731B32 /* ContentViewController.swift */,
+				DBD705D721311D130018C977 /* TableViewController.swift */,
+				DB1AE34C2143B8E10074C8C7 /* ShareViewController.swift */,
+				DB1C30B32156137E00035A51 /* ReadQRViewController.swift */,
+				DB6B6E2E217B205400B6E707 /* SettingViewController.swift */,
+				DB6A43AA212A609200731B32 /* Date+.swift */,
+			);
+			path = Memopad;
+			sourceTree = "<group>";
+		};
+		DBEC977D20AFF13A004A4D44 = {
+			isa = PBXGroup;
+			children = (
+				DB52FA05217B3F7500A8B7AA /* Memopad */,
+				DBEC979D20AFF13D004A4D44 /* MemopadTests */,
+				DBEC97A820AFF13D004A4D44 /* MemopadUITests */,
+				DBEC978720AFF13A004A4D44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBEC978720AFF13A004A4D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC978620AFF13A004A4D44 /* Memopad.app */,
+				DBEC979A20AFF13D004A4D44 /* MemopadTests.xctest */,
+				DBEC97A520AFF13D004A4D44 /* MemopadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBEC979D20AFF13D004A4D44 /* MemopadTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC979E20AFF13D004A4D44 /* MemopadTests.swift */,
+				DBEC97A020AFF13D004A4D44 /* Info.plist */,
+			);
+			path = MemopadTests;
+			sourceTree = "<group>";
+		};
+		DBEC97A820AFF13D004A4D44 /* MemopadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBEC97A920AFF13D004A4D44 /* MemopadUITests.swift */,
+				DBEC97AB20AFF13D004A4D44 /* Info.plist */,
+			);
+			path = MemopadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBEC978520AFF13A004A4D44 /* Memopad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEC97AE20AFF13D004A4D44 /* Build configuration list for PBXNativeTarget "Memopad" */;
+			buildPhases = (
+				DBEC978220AFF13A004A4D44 /* Sources */,
+				DBEC978320AFF13A004A4D44 /* Frameworks */,
+				DBEC978420AFF13A004A4D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memopad;
+			productName = Memopad;
+			productReference = DBEC978620AFF13A004A4D44 /* Memopad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBEC979920AFF13D004A4D44 /* MemopadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEC97B120AFF13D004A4D44 /* Build configuration list for PBXNativeTarget "MemopadTests" */;
+			buildPhases = (
+				DBEC979620AFF13D004A4D44 /* Sources */,
+				DBEC979720AFF13D004A4D44 /* Frameworks */,
+				DBEC979820AFF13D004A4D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBEC979C20AFF13D004A4D44 /* PBXTargetDependency */,
+			);
+			name = MemopadTests;
+			productName = MemopadTests;
+			productReference = DBEC979A20AFF13D004A4D44 /* MemopadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBEC97A420AFF13D004A4D44 /* MemopadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEC97B420AFF13D004A4D44 /* Build configuration list for PBXNativeTarget "MemopadUITests" */;
+			buildPhases = (
+				DBEC97A120AFF13D004A4D44 /* Sources */,
+				DBEC97A220AFF13D004A4D44 /* Frameworks */,
+				DBEC97A320AFF13D004A4D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBEC97A720AFF13D004A4D44 /* PBXTargetDependency */,
+			);
+			name = MemopadUITests;
+			productName = MemopadUITests;
+			productReference = DBEC97A520AFF13D004A4D44 /* MemopadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBEC977E20AFF13A004A4D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = YuiMatsuda;
+				TargetAttributes = {
+					DBEC978520AFF13A004A4D44 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					DBEC979920AFF13D004A4D44 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = DBEC978520AFF13A004A4D44;
+					};
+					DBEC97A420AFF13D004A4D44 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = DBEC978520AFF13A004A4D44;
+					};
+				};
+			};
+			buildConfigurationList = DBEC978120AFF13A004A4D44 /* Build configuration list for PBXProject "Memopad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBEC977D20AFF13A004A4D44;
+			productRefGroup = DBEC978720AFF13A004A4D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBEC978520AFF13A004A4D44 /* Memopad */,
+				DBEC979920AFF13D004A4D44 /* MemopadTests */,
+				DBEC97A420AFF13D004A4D44 /* MemopadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBEC978420AFF13A004A4D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEC97BC20B03498004A4D44 /* シェイクアイコン2.png in Resources */,
+				DBEC97BA20B03414004A4D44 /* かわいい羽根のペンのアイコン素材2.png in Resources */,
+				DBD705D62130F5BC0018C977 /* 設定の歯車アイコン　その2.png in Resources */,
+				DBB8A55B20E76645001EA27C /* カレンダーのフリーアイコン2.png in Resources */,
+				DBB8A55D20E76A25001EA27C /* rounded-mplus-2c-bold.ttf in Resources */,
+				DB6A43A72127D29E00731B32 /* GenEiLateMin.otf in Resources */,
+				DBEC97BF20B0FD4B004A4D44 /* カメラアイコン9.png in Resources */,
+				DB449AB5217B40B400B932E8 /* Main.storyboard in Resources */,
+				DB449AB3217B409300B932E8 /* LaunchScreen.storyboard in Resources */,
+				DBEC979120AFF13D004A4D44 /* Assets.xcassets in Resources */,
+				DBFA7036217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png in Resources */,
+				DB1C30B2215611AD00035A51 /* インストールアイコン.png in Resources */,
+				DBEC97C020B0FD4B004A4D44 /* 写真アイコン8.png in Resources */,
+				DBD705D42130F5AA0018C977 /* アンケートシートのフリーアイコン.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEC979820AFF13D004A4D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEC97A320AFF13D004A4D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBEC978220AFF13A004A4D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6A43AB212A609200731B32 /* Date+.swift in Sources */,
+				DB63489E20E77552001A7614 /* CalendarViewController.swift in Sources */,
+				DBEC978C20AFF13A004A4D44 /* ViewController.swift in Sources */,
+				DBD705D821311D130018C977 /* TableViewController.swift in Sources */,
+				DBEC978A20AFF13A004A4D44 /* AppDelegate.swift in Sources */,
+				DB6B6E2F217B205400B6E707 /* SettingViewController.swift in Sources */,
+				DB6A43A9212909E600731B32 /* ContentViewController.swift in Sources */,
+				DB1AE34D2143B8E10074C8C7 /* ShareViewController.swift in Sources */,
+				DBEC97B820AFF282004A4D44 /* MemoViewController.swift in Sources */,
+				DB1C30B42156137E00035A51 /* ReadQRViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEC979620AFF13D004A4D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEC979F20AFF13D004A4D44 /* MemopadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEC97A120AFF13D004A4D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEC97AA20AFF13D004A4D44 /* MemopadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBEC979C20AFF13D004A4D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBEC978520AFF13A004A4D44 /* Memopad */;
+			targetProxy = DBEC979B20AFF13D004A4D44 /* PBXContainerItemProxy */;
+		};
+		DBEC97A720AFF13D004A4D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBEC978520AFF13A004A4D44 /* Memopad */;
+			targetProxy = DBEC97A620AFF13D004A4D44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBEC97AC20AFF13D004A4D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBEC97AD20AFF13D004A4D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBEC97AF20AFF13D004A4D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT77PCEDS8;
+				INFOPLIST_FILE = Memopad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuichoko.Memopad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBEC97B020AFF13D004A4D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT77PCEDS8;
+				INFOPLIST_FILE = Memopad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuichoko.Memopad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBEC97B220AFF13D004A4D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemopadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MemopadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memopad.app/Memopad";
+			};
+			name = Debug;
+		};
+		DBEC97B320AFF13D004A4D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemopadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MemopadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memopad.app/Memopad";
+			};
+			name = Release;
+		};
+		DBEC97B520AFF13D004A4D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemopadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MemopadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memopad;
+			};
+			name = Debug;
+		};
+		DBEC97B620AFF13D004A4D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MemopadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.MemopadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memopad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBEC978120AFF13A004A4D44 /* Build configuration list for PBXProject "Memopad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEC97AC20AFF13D004A4D44 /* Debug */,
+				DBEC97AD20AFF13D004A4D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEC97AE20AFF13D004A4D44 /* Build configuration list for PBXNativeTarget "Memopad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEC97AF20AFF13D004A4D44 /* Debug */,
+				DBEC97B020AFF13D004A4D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEC97B120AFF13D004A4D44 /* Build configuration list for PBXNativeTarget "MemopadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEC97B220AFF13D004A4D44 /* Debug */,
+				DBEC97B320AFF13D004A4D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEC97B420AFF13D004A4D44 /* Build configuration list for PBXNativeTarget "MemopadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEC97B520AFF13D004A4D44 /* Debug */,
+				DBEC97B620AFF13D004A4D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBEC977E20AFF13A004A4D44 /* Project object */;
+}
