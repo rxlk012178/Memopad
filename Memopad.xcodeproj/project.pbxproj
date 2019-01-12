@@ -10,6 +10,9 @@
 		DB1AE34D2143B8E10074C8C7 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1AE34C2143B8E10074C8C7 /* ShareViewController.swift */; };
 		DB1C30B2215611AD00035A51 /* インストールアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1C30B1215611AD00035A51 /* インストールアイコン.png */; };
 		DB1C30B42156137E00035A51 /* ReadQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C30B32156137E00035A51 /* ReadQRViewController.swift */; };
+		DB2D17B521C4CC4C00571F90 /* ふたの開いたゴミ箱のアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2D17B421C4CC4C00571F90 /* ふたの開いたゴミ箱のアイコン.png */; };
+		DB2D17B721C4DBD300571F90 /* 段ボール箱　12.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2D17B621C4DBD300571F90 /* 段ボール箱　12.png */; };
+		DB2D17B921C4DC0200571F90 /* tweetbird.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2D17B821C4DC0200571F90 /* tweetbird.png */; };
 		DB449AB3217B409300B932E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB449AB2217B409300B932E8 /* LaunchScreen.storyboard */; };
 		DB449AB5217B40B400B932E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB449AB4217B40B400B932E8 /* Main.storyboard */; };
 		DB63489E20E77552001A7614 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63489D20E77552001A7614 /* CalendarViewController.swift */; };
@@ -32,7 +35,7 @@
 		DBEC97BC20B03498004A4D44 /* シェイクアイコン2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEC97BB20B03498004A4D44 /* シェイクアイコン2.png */; };
 		DBEC97BF20B0FD4B004A4D44 /* カメラアイコン9.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEC97BD20B0FD4B004A4D44 /* カメラアイコン9.png */; };
 		DBEC97C020B0FD4B004A4D44 /* 写真アイコン8.png in Resources */ = {isa = PBXBuildFile; fileRef = DBEC97BE20B0FD4B004A4D44 /* 写真アイコン8.png */; };
-		DBFA7036217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA7035217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png */; };
+		DBFA705821B26BBA00AE48AA /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA705721B26BBA00AE48AA /* ScanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		DB1AE34C2143B8E10074C8C7 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		DB1C30B1215611AD00035A51 /* インストールアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "インストールアイコン.png"; sourceTree = "<group>"; };
 		DB1C30B32156137E00035A51 /* ReadQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadQRViewController.swift; sourceTree = "<group>"; };
+		DB2D17B421C4CC4C00571F90 /* ふたの開いたゴミ箱のアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ふたの開いたゴミ箱のアイコン.png"; sourceTree = "<group>"; };
+		DB2D17B621C4DBD300571F90 /* 段ボール箱　12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "段ボール箱　12.png"; sourceTree = "<group>"; };
+		DB2D17B821C4DC0200571F90 /* tweetbird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweetbird.png; sourceTree = "<group>"; };
 		DB449AB2217B409300B932E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB449AB4217B40B400B932E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DB63489D20E77552001A7614 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -84,7 +90,7 @@
 		DBEC97BB20B03498004A4D44 /* シェイクアイコン2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "シェイクアイコン2.png"; sourceTree = "<group>"; };
 		DBEC97BD20B0FD4B004A4D44 /* カメラアイコン9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カメラアイコン9.png"; sourceTree = "<group>"; };
 		DBEC97BE20B0FD4B004A4D44 /* 写真アイコン8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "写真アイコン8.png"; sourceTree = "<group>"; };
-		DBFA7035217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ふたの開いたゴミ箱のアイコン.png"; path = "../../../../ふたの開いたゴミ箱のアイコン.png"; sourceTree = "<group>"; };
+		DBFA705721B26BBA00AE48AA /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +126,12 @@
 				DBB8A55A20E76644001EA27C /* カレンダーのフリーアイコン2.png */,
 				DB6A43A62127D29D00731B32 /* GenEiLateMin.otf */,
 				DBEC97BD20B0FD4B004A4D44 /* カメラアイコン9.png */,
+				DB2D17B821C4DC0200571F90 /* tweetbird.png */,
 				DBEC97BE20B0FD4B004A4D44 /* 写真アイコン8.png */,
 				DBEC97BB20B03498004A4D44 /* シェイクアイコン2.png */,
-				DBFA7035217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png */,
 				DBD705D52130F5BC0018C977 /* 設定の歯車アイコン　その2.png */,
+				DB2D17B621C4DBD300571F90 /* 段ボール箱　12.png */,
+				DB2D17B421C4CC4C00571F90 /* ふたの開いたゴミ箱のアイコン.png */,
 				DBD705D32130F5AA0018C977 /* アンケートシートのフリーアイコン.png */,
 				DBEC97B920B03414004A4D44 /* かわいい羽根のペンのアイコン素材2.png */,
 				DBEC978920AFF13A004A4D44 /* AppDelegate.swift */,
@@ -138,6 +146,7 @@
 				DBD705D721311D130018C977 /* TableViewController.swift */,
 				DB1AE34C2143B8E10074C8C7 /* ShareViewController.swift */,
 				DB1C30B32156137E00035A51 /* ReadQRViewController.swift */,
+				DBFA705721B26BBA00AE48AA /* ScanViewController.swift */,
 				DB6B6E2E217B205400B6E707 /* SettingViewController.swift */,
 				DB6A43AA212A609200731B32 /* Date+.swift */,
 			);
@@ -296,8 +305,10 @@
 				DB449AB5217B40B400B932E8 /* Main.storyboard in Resources */,
 				DB449AB3217B409300B932E8 /* LaunchScreen.storyboard in Resources */,
 				DBEC979120AFF13D004A4D44 /* Assets.xcassets in Resources */,
-				DBFA7036217B41DD00AE48AA /* ふたの開いたゴミ箱のアイコン.png in Resources */,
+				DB2D17B921C4DC0200571F90 /* tweetbird.png in Resources */,
+				DB2D17B521C4CC4C00571F90 /* ふたの開いたゴミ箱のアイコン.png in Resources */,
 				DB1C30B2215611AD00035A51 /* インストールアイコン.png in Resources */,
+				DB2D17B721C4DBD300571F90 /* 段ボール箱　12.png in Resources */,
 				DBEC97C020B0FD4B004A4D44 /* 写真アイコン8.png in Resources */,
 				DBD705D42130F5AA0018C977 /* アンケートシートのフリーアイコン.png in Resources */,
 			);
@@ -327,6 +338,7 @@
 				DB6A43AB212A609200731B32 /* Date+.swift in Sources */,
 				DB63489E20E77552001A7614 /* CalendarViewController.swift in Sources */,
 				DBEC978C20AFF13A004A4D44 /* ViewController.swift in Sources */,
+				DBFA705821B26BBA00AE48AA /* ScanViewController.swift in Sources */,
 				DBD705D821311D130018C977 /* TableViewController.swift in Sources */,
 				DBEC978A20AFF13A004A4D44 /* AppDelegate.swift in Sources */,
 				DB6B6E2F217B205400B6E707 /* SettingViewController.swift in Sources */,

@@ -21,7 +21,18 @@ class SettingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func twtbtn(_ sender: UIButton) {
+        let url = URL(string: "https://twitter.com/LiT121__")!
+        if UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url)}
+    }
 
+    @IBAction func QAboxbtn(_ sender: UIButton) {
+        let url = URL(string: "https://peing.net/ja/lit121__")!
+        if UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url)}
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -31,5 +42,5 @@ class SettingViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

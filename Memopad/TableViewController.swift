@@ -8,40 +8,64 @@
 
 import UIKit
 
-class TableViewController: UIViewController, UITableViewDataSource {
-    // storyboardで使うtableviewを宣言
-    @IBOutlet var table: UITableView!
+class TableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    // タイトルを入れる配列
-    var titleArray = [String]()
+    var titleArray: [String] = []
+    var dateArray: [String] = []
+    var contentArray: [String] = []
+    let SaveData: UserDefaults = UserDefaults.standard
     
+    //@IBOutlet var tableView: UITableView!
+    
+    let array: [String] = ["aaa", "bbb"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // tableviewのデータソースメソッドはTableViewControllerクラスに書くという設定
-        table.dataSource = self
         
-        // titleArrayにタイトルを入れる
-        titleArray = ["title1", "title2", "title3"]
+//        tableView.delegate = self
+//        tableView.dataSource = self
+        
+//        if SaveData.object(forKey: "title") != nil && SaveData.object(forKey: "date") != nil && SaveData.object(forKey: "content") != nil {
+//            titleArray = SaveData.object(forKey: "title") as! [String]
+//            dateArray = SaveData.object(forKey: "date") as! [String]
+//            contentArray = SaveData.object(forKey: "content") as! [String]
+//
+//        }
+//        print(titleArray)
+//        tableView.reloadData()
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    // セルの数を設定
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+
+    // セルの個数を指定するデリゲートメソッド（必須）
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // セルの数をtitleArrayの数にする
-        return titleArray.count
+        return 10
     }
-    // ID付きのセルを設定して、セル付属のtextlabelに「test」と表示させてみる
+    
+    // セルに値を設定するデータソースメソッド（必須）
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
-        // セルにtitleArrayのタイトルを表示する
-        cell?.textLabel?.text = titleArray[indexPath.row]
-        return cell!
+         //セルを取得する
+        let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath)
+
+        let label = cell.viewWithTag(1) as! UILabel
+        label.text = array[indexPath.row]
+
+         //セルに表示する値を設定する
+
+        return cell
     }
+
+    // セルが選択された時に呼ばれるデリゲートメソッド
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+     }
 
     /*
     // MARK: - Navigation

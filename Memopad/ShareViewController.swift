@@ -13,8 +13,10 @@ class ShareViewController: UIViewController {
     // ここで受け取る
     var titleText:String!
     var contentText:String!
+    var month: Int!
+    var day: Int!
     var contentimageView:UIImage!
-    
+    var dateText: String!
     
     
     override func viewDidLoad() {
@@ -22,16 +24,16 @@ class ShareViewController: UIViewController {
         
         // 日付持ってくる
         
-        let sumStr = titleText + contentText// 日付たす
+        dateText = String(month) + "/" + String(day)
+        print(dateText)
+        let sumStr = titleText + "*" + contentText + "*" + dateText // 日付たす
         
-        print(sumStr)
+       // print(sumStr)
         
         //let activityItems: [Any] = [titleText!, contentText!, contentimageView!]
         
-        let activityItems: [String] = [sumStr]
-        
-        let data = NSData(bytes: activityItems, length: activityItems.count)
-        print(data)
+        let data = sumStr.data(using: String.Encoding.utf8)!
+        //print(data)
         
         // QRコードを生成する
         let qr = CIFilter(name: "CIQRCodeGenerator", withInputParameters: ["inputMessage": data, "inputCorrectionLevel": "M"])!

@@ -78,14 +78,35 @@ class ContentViewController: UIViewController {
             
             shareViewController.titleText = self.titleLabel.text!
             shareViewController.contentText = self.contentLabel.text!
+            shareViewController.month = self.month
+            shareViewController.day = self.day
             shareViewController.contentimageView = self.contentimageView.image!
         }
     }
     
-    func removeUserDefaults() {
-        let appDomain = Bundle.main.bundleIdentifier
-        UserDefaults.standard.removePersistentDomain(forName: appDomain!)
+    @IBAction func deleteButton() {
+        
+        // アラートを出す
+            let alertController = UIAlertController(title: "削除",message: "本当にこの日記を削除してもいいですか？", preferredStyle: UIAlertControllerStyle.alert)
+            
+            let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default){ (action: UIAlertAction) in
+                UserDefaults.standard.removeObject(forKey: "diary")
+            }
+            let cancelButton = UIAlertAction(title: "キャンセル", style: UIAlertActionStyle.cancel, handler: nil)
+        
+            alertController.addAction(okAction)
+            alertController.addAction(cancelButton)
+            
+            present(alertController,animated: true,completion: nil)
     }
+    
+ /*//削除のボタン
+    @IBAction func deleteButton(_ sender: Any) {
+        removeObjectForKey("diary")
+        defaults.synchronize()
+ }*/
+    
+
 
         
         
