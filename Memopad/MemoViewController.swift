@@ -20,14 +20,9 @@ class MemoViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     var Title: String?
     var Content: String?
     
-    // @IBOutlet var datePicker: UIDatePicker!
     
     let saveData: UserDefaults = UserDefaults.standard
-    
-    // 画像加工するための元の画像
-    // var originalImage: UIImage!
-    // 画像加工するフィルターの宣言
-    // var filter: CIFilter!
+
     
     @objc func commitButtonTapped (){
         self.view.endEditing(true)
@@ -44,8 +39,6 @@ class MemoViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //titleTextField.text = saveData.object(forKey: "title") as? String
-        //contentTextView.text = saveData.object(forKey: "content") as? String
         titleTextField.delegate = self
         
         // 仮のサイズでツールバー生成
@@ -187,14 +180,6 @@ class MemoViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
     }
     
-    /* セグエを準備(prepare)する時に呼ばれるメソッド
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toContentView" {
-            let contentViewController = segue.destination as! ContentViewController
-            contentViewController.year = self.Title
-            contentViewController.month = self.Content
-        }*/
-    
     
     
     
@@ -209,3 +194,5 @@ class MemoViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
      */
     
 }
+
+

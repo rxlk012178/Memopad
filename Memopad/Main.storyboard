@@ -82,6 +82,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
                                 <state key="normal" title="友達の日記を見る"/>
+                                <connections>
+                                    <segue destination="XOd-wf-7uk" kind="showDetail" id="4Gl-G7-eh8"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rke-Hh-nBS">
                                 <rect key="frame" x="33" y="85" width="308" height="157"/>
@@ -328,18 +331,11 @@ QRコードを表示してもらってください</string>
                                     <segue destination="8AN-46-cfY" kind="presentation" id="m7H-1m-ZiV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWH-Kp-Ej9">
-                                <rect key="frame" x="0.0" y="554" width="375" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBr-6y-XN3">
-                                <rect key="frame" x="142" y="381" width="91" height="36"/>
+                                <rect key="frame" x="169" y="409" width="37" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="18"/>
-                                <state key="normal" title="キャンセル"/>
+                                <state key="normal" title="戻る"/>
                                 <connections>
                                     <action selector="returnButton" destination="QU4-bk-bbu" eventType="touchUpInside" id="UX1-5s-Ljt"/>
                                 </connections>
@@ -348,9 +344,6 @@ QRコードを表示してもらってください</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uLc-h6-iss"/>
                     </view>
-                    <connections>
-                        <outlet property="stringLabel" destination="WWH-Kp-Ej9" id="idD-MT-Ted"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aUz-sy-Gmw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -728,7 +721,8 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
         <segue reference="d2U-G2-lQM"/>
         <segue reference="uTq-ns-ilU"/>
         <segue reference="8tM-4E-wSU"/>
-        <segue reference="AhI-Ce-ULv"/>
+        <segue reference="4Gl-G7-eh8"/>
+        <segue reference="dOC-xi-aBw"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
