@@ -23,7 +23,7 @@ class ContentViewController: UIViewController {
     var month: Int?
     var day: Int?
     
-    
+    var index: Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,17 +87,33 @@ class ContentViewController: UIViewController {
     @IBAction func deleteButton() {
         
         // アラートを出す
-            let alertController = UIAlertController(title: "削除",message: "本当にこの日記を削除してもいいですか？", preferredStyle: UIAlertControllerStyle.alert)
-            
-            let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default){ (action: UIAlertAction) in
-                UserDefaults.standard.removeObject(forKey: "diary")
-            }
-            let cancelButton = UIAlertAction(title: "キャンセル", style: UIAlertActionStyle.cancel, handler: nil)
-        
-            alertController.addAction(okAction)
-            alertController.addAction(cancelButton)
-            
-            present(alertController,animated: true,completion: nil)
+//            let alertController = UIAlertController(title: "削除",message: "本当にこの日記を削除してもいいですか？", preferredStyle: UIAlertControllerStyle.alert)
+//
+//            let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default){ (action: UIAlertAction) in
+//
+//                if let diaries = self.saveData.array(forKey: "diary") as? [[String: Any]] {
+//                    // 年月日でフィルターかけて検索する
+//                    let diary = diaries.filter { diary in
+//                        if let date = diary["date"] as? Date {
+//                            return date.year == self.year && date.month == self.month && date.day == self.day
+//                        } else {
+//                            return false
+//                        }
+//                        }.first
+//                    diaries.remove(at: )
+//                }
+//                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+//                   // self.performSegue(withIdentifier: "toCalenderVC", sender: nil)
+//                   // self.dismiss(animated: true, completion: nil)
+//                    self.navigationController?.popViewController(animated: true)
+//                }
+//            }
+//            let cancelButton = UIAlertAction(title: "キャンセル", style: UIAlertActionStyle.cancel, handler: nil)
+//
+//            alertController.addAction(okAction)
+//            alertController.addAction(cancelButton)
+//
+//            present(alertController,animated: true,completion: nil)
     }
     
  /*//削除のボタン

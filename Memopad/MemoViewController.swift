@@ -89,7 +89,7 @@ class MemoViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         // 日付のフォーマット
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy年M月dd日"
-        datetextField.text = "\(formatter.string(from: Date()))"
+        datetextField.text = "\(formatter.string(from: datePicker.date))"
     }
     
     func textFieldShouldClear(_ textField: UITextField) -> Bool {

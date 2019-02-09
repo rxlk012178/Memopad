@@ -39,6 +39,11 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        myCollectionView.reloadData()
+    }
+    
     
     func calculation(){
         let firstDayOfMonth = cal.date(from: components)
@@ -91,6 +96,7 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
             }.first
         
         if diary != nil {
+            cell.isUserInteractionEnabled = true
             cell.backgroundColor = UIColor.init(red: 235/255, green: 235/255, blue: 235/255, alpha: 100/100)
         }
         return cell
@@ -123,7 +129,10 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         month = firstDayOfMonth?.month
         day = cell!.tag
         
-        performSegue(withIdentifier: "toContentView", sender: nil)
+        if day != 0 {
+            
+              performSegue(withIdentifier: "toContentView", sender: nil)
+        }
         
     }
     
