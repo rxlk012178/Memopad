@@ -15,6 +15,25 @@
 		DB2D17B921C4DC0200571F90 /* tweetbird.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2D17B821C4DC0200571F90 /* tweetbird.png */; };
 		DB449AB3217B409300B932E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB449AB2217B409300B932E8 /* LaunchScreen.storyboard */; };
 		DB449AB5217B40B400B932E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB449AB4217B40B400B932E8 /* Main.storyboard */; };
+		DB55DAD5220EC9D70082FDA6 /* Friend's.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DAD4220EC9D70082FDA6 /* Friend's.png */; };
+		DB55DAD7220EC9E30082FDA6 /* ReadQR.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DAD6220EC9E30082FDA6 /* ReadQR.png */; };
+		DB55DAD9220ECA0D0082FDA6 /* Write.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DAD8220ECA0D0082FDA6 /* Write.png */; };
+		DB55DADB220ECA2E0082FDA6 /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DADA220ECA2E0082FDA6 /* Setting.png */; };
+		DB55DAE7220EE1140082FDA6 /* 1xSmallCalendar.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DAE4220EE1130082FDA6 /* 1xSmallCalendar.png */; };
+		DB55DAE8220EE1140082FDA6 /* 3xCalendar.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DAE5220EE1130082FDA6 /* 3xCalendar.png */; };
+		DB55DAE9220EE1140082FDA6 /* 2xCalendar.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DAE6220EE1130082FDA6 /* 2xCalendar.png */; };
+		DB55DAF9220EE1550082FDA6 /* 3xReadQR.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DAF6220EE1550082FDA6 /* 3xReadQR.png */; };
+		DB55DAFA220EE1550082FDA6 /* 1xSmallReadQR.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DAF7220EE1550082FDA6 /* 1xSmallReadQR.png */; };
+		DB55DAFB220EE1550082FDA6 /* 2xReadQR.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DAF8220EE1550082FDA6 /* 2xReadQR.png */; };
+		DB55DB07220EE1680082FDA6 /* 2xSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DB04220EE1670082FDA6 /* 2xSetting.png */; };
+		DB55DB08220EE1680082FDA6 /* 1xSmallSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DB05220EE1670082FDA6 /* 1xSmallSetting.png */; };
+		DB55DB09220EE1680082FDA6 /* 3xSetting.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DB06220EE1670082FDA6 /* 3xSetting.png */; };
+		DB55DB16220EE1C30082FDA6 /* 3xWrite.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DB13220EE1C20082FDA6 /* 3xWrite.png */; };
+		DB55DB17220EE1C30082FDA6 /* 1xSmallWrite.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DB14220EE1C20082FDA6 /* 1xSmallWrite.png */; };
+		DB55DB18220EE1C30082FDA6 /* 2xWrite.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DB15220EE1C20082FDA6 /* 2xWrite.png */; };
+		DB55DB1D220EE3070082FDA6 /* 3xFriend's.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DB1A220EE3060082FDA6 /* 3xFriend's.png */; };
+		DB55DB1E220EE3070082FDA6 /* 2xFriend's.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DB1B220EE3060082FDA6 /* 2xFriend's.png */; };
+		DB55DB1F220EE3070082FDA6 /* 1xSmallFriend's.png in Resources */ = {isa = PBXBuildFile; fileRef = DB55DB1C220EE3060082FDA6 /* 1xSmallFriend's.png */; };
 		DB63489E20E77552001A7614 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB63489D20E77552001A7614 /* CalendarViewController.swift */; };
 		DB6A43A72127D29E00731B32 /* GenEiLateMin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB6A43A62127D29D00731B32 /* GenEiLateMin.otf */; };
 		DB6A43A9212909E600731B32 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A43A8212909E600731B32 /* ContentViewController.swift */; };
@@ -64,6 +83,25 @@
 		DB2D17B821C4DC0200571F90 /* tweetbird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweetbird.png; sourceTree = "<group>"; };
 		DB449AB2217B409300B932E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB449AB4217B40B400B932E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB55DAD4220EC9D70082FDA6 /* Friend's.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Friend's.png"; sourceTree = "<group>"; };
+		DB55DAD6220EC9E30082FDA6 /* ReadQR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReadQR.png; sourceTree = "<group>"; };
+		DB55DAD8220ECA0D0082FDA6 /* Write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Write.png; sourceTree = "<group>"; };
+		DB55DADA220ECA2E0082FDA6 /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
+		DB55DAE4220EE1130082FDA6 /* 1xSmallCalendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1xSmallCalendar.png; sourceTree = "<group>"; };
+		DB55DAE5220EE1130082FDA6 /* 3xCalendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3xCalendar.png; sourceTree = "<group>"; };
+		DB55DAE6220EE1130082FDA6 /* 2xCalendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2xCalendar.png; sourceTree = "<group>"; };
+		DB55DAF6220EE1550082FDA6 /* 3xReadQR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3xReadQR.png; sourceTree = "<group>"; };
+		DB55DAF7220EE1550082FDA6 /* 1xSmallReadQR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1xSmallReadQR.png; sourceTree = "<group>"; };
+		DB55DAF8220EE1550082FDA6 /* 2xReadQR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2xReadQR.png; sourceTree = "<group>"; };
+		DB55DB04220EE1670082FDA6 /* 2xSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2xSetting.png; sourceTree = "<group>"; };
+		DB55DB05220EE1670082FDA6 /* 1xSmallSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1xSmallSetting.png; sourceTree = "<group>"; };
+		DB55DB06220EE1670082FDA6 /* 3xSetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3xSetting.png; sourceTree = "<group>"; };
+		DB55DB13220EE1C20082FDA6 /* 3xWrite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3xWrite.png; sourceTree = "<group>"; };
+		DB55DB14220EE1C20082FDA6 /* 1xSmallWrite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1xSmallWrite.png; sourceTree = "<group>"; };
+		DB55DB15220EE1C20082FDA6 /* 2xWrite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2xWrite.png; sourceTree = "<group>"; };
+		DB55DB1A220EE3060082FDA6 /* 3xFriend's.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3xFriend's.png"; sourceTree = "<group>"; };
+		DB55DB1B220EE3060082FDA6 /* 2xFriend's.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2xFriend's.png"; sourceTree = "<group>"; };
+		DB55DB1C220EE3060082FDA6 /* 1xSmallFriend's.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1xSmallFriend's.png"; sourceTree = "<group>"; };
 		DB63489D20E77552001A7614 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		DB6A43A62127D29D00731B32 /* GenEiLateMin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenEiLateMin.otf; sourceTree = "<group>"; };
 		DB6A43A8212909E600731B32 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
@@ -132,8 +170,17 @@
 				DBD705D52130F5BC0018C977 /* 設定の歯車アイコン　その2.png */,
 				DB2D17B621C4DBD300571F90 /* 段ボール箱　12.png */,
 				DB2D17B421C4CC4C00571F90 /* ふたの開いたゴミ箱のアイコン.png */,
+				DB55DB19220EE3060082FDA6 /* Friend'S */,
 				DBD705D32130F5AA0018C977 /* アンケートシートのフリーアイコン.png */,
+				DB55DAE3220EE1130082FDA6 /* Calendar */,
 				DBEC97B920B03414004A4D44 /* かわいい羽根のペンのアイコン素材2.png */,
+				DB55DAD8220ECA0D0082FDA6 /* Write.png */,
+				DB55DB12220EE1C20082FDA6 /* Write */,
+				DB55DAD6220EC9E30082FDA6 /* ReadQR.png */,
+				DB55DB03220EE1670082FDA6 /* Setting */,
+				DB55DAD4220EC9D70082FDA6 /* Friend's.png */,
+				DB55DAF5220EE1550082FDA6 /* ReadQR */,
+				DB55DADA220ECA2E0082FDA6 /* Setting.png */,
 				DBEC978920AFF13A004A4D44 /* AppDelegate.swift */,
 				DBEC978B20AFF13A004A4D44 /* ViewController.swift */,
 				DB449AB4217B40B400B932E8 /* Main.storyboard */,
@@ -151,6 +198,57 @@
 				DB6A43AA212A609200731B32 /* Date+.swift */,
 			);
 			path = Memopad;
+			sourceTree = "<group>";
+		};
+		DB55DAE3220EE1130082FDA6 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				DB55DAE4220EE1130082FDA6 /* 1xSmallCalendar.png */,
+				DB55DAE5220EE1130082FDA6 /* 3xCalendar.png */,
+				DB55DAE6220EE1130082FDA6 /* 2xCalendar.png */,
+			);
+			name = Calendar;
+			path = ../../../../Calendar;
+			sourceTree = "<group>";
+		};
+		DB55DAF5220EE1550082FDA6 /* ReadQR */ = {
+			isa = PBXGroup;
+			children = (
+				DB55DAF6220EE1550082FDA6 /* 3xReadQR.png */,
+				DB55DAF7220EE1550082FDA6 /* 1xSmallReadQR.png */,
+				DB55DAF8220EE1550082FDA6 /* 2xReadQR.png */,
+			);
+			path = ReadQR;
+			sourceTree = "<group>";
+		};
+		DB55DB03220EE1670082FDA6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				DB55DB04220EE1670082FDA6 /* 2xSetting.png */,
+				DB55DB05220EE1670082FDA6 /* 1xSmallSetting.png */,
+				DB55DB06220EE1670082FDA6 /* 3xSetting.png */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		DB55DB12220EE1C20082FDA6 /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				DB55DB13220EE1C20082FDA6 /* 3xWrite.png */,
+				DB55DB14220EE1C20082FDA6 /* 1xSmallWrite.png */,
+				DB55DB15220EE1C20082FDA6 /* 2xWrite.png */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
+		DB55DB19220EE3060082FDA6 /* Friend'S */ = {
+			isa = PBXGroup;
+			children = (
+				DB55DB1A220EE3060082FDA6 /* 3xFriend's.png */,
+				DB55DB1B220EE3060082FDA6 /* 2xFriend's.png */,
+				DB55DB1C220EE3060082FDA6 /* 1xSmallFriend's.png */,
+			);
+			path = "Friend'S";
 			sourceTree = "<group>";
 		};
 		DBEC977D20AFF13A004A4D44 = {
@@ -296,20 +394,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBEC97BC20B03498004A4D44 /* シェイクアイコン2.png in Resources */,
+				DB55DB08220EE1680082FDA6 /* 1xSmallSetting.png in Resources */,
 				DBEC97BA20B03414004A4D44 /* かわいい羽根のペンのアイコン素材2.png in Resources */,
 				DBD705D62130F5BC0018C977 /* 設定の歯車アイコン　その2.png in Resources */,
 				DBB8A55B20E76645001EA27C /* カレンダーのフリーアイコン2.png in Resources */,
 				DBB8A55D20E76A25001EA27C /* rounded-mplus-2c-bold.ttf in Resources */,
+				DB55DB16220EE1C30082FDA6 /* 3xWrite.png in Resources */,
 				DB6A43A72127D29E00731B32 /* GenEiLateMin.otf in Resources */,
 				DBEC97BF20B0FD4B004A4D44 /* カメラアイコン9.png in Resources */,
+				DB55DB09220EE1680082FDA6 /* 3xSetting.png in Resources */,
+				DB55DAD5220EC9D70082FDA6 /* Friend's.png in Resources */,
+				DB55DAE7220EE1140082FDA6 /* 1xSmallCalendar.png in Resources */,
+				DB55DAF9220EE1550082FDA6 /* 3xReadQR.png in Resources */,
+				DB55DAE9220EE1140082FDA6 /* 2xCalendar.png in Resources */,
+				DB55DAE8220EE1140082FDA6 /* 3xCalendar.png in Resources */,
 				DB449AB5217B40B400B932E8 /* Main.storyboard in Resources */,
+				DB55DAD7220EC9E30082FDA6 /* ReadQR.png in Resources */,
+				DB55DAD9220ECA0D0082FDA6 /* Write.png in Resources */,
 				DB449AB3217B409300B932E8 /* LaunchScreen.storyboard in Resources */,
+				DB55DB18220EE1C30082FDA6 /* 2xWrite.png in Resources */,
 				DBEC979120AFF13D004A4D44 /* Assets.xcassets in Resources */,
 				DB2D17B921C4DC0200571F90 /* tweetbird.png in Resources */,
+				DB55DB17220EE1C30082FDA6 /* 1xSmallWrite.png in Resources */,
 				DB2D17B521C4CC4C00571F90 /* ふたの開いたゴミ箱のアイコン.png in Resources */,
 				DB1C30B2215611AD00035A51 /* インストールアイコン.png in Resources */,
+				DB55DB1F220EE3070082FDA6 /* 1xSmallFriend's.png in Resources */,
+				DB55DAFA220EE1550082FDA6 /* 1xSmallReadQR.png in Resources */,
 				DB2D17B721C4DBD300571F90 /* 段ボール箱　12.png in Resources */,
+				DB55DB1D220EE3070082FDA6 /* 3xFriend's.png in Resources */,
+				DB55DAFB220EE1550082FDA6 /* 2xReadQR.png in Resources */,
+				DB55DB1E220EE3070082FDA6 /* 2xFriend's.png in Resources */,
 				DBEC97C020B0FD4B004A4D44 /* 写真アイコン8.png in Resources */,
+				DB55DADB220ECA2E0082FDA6 /* Setting.png in Resources */,
+				DB55DB07220EE1680082FDA6 /* 2xSetting.png in Resources */,
 				DBD705D42130F5AA0018C977 /* アンケートシートのフリーアイコン.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

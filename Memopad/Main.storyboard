@@ -15,122 +15,25 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Calendar-->
+        <scene sceneID="fbS-He-fe5">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Memopad" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sp1-uO-5rc">
-                                <rect key="frame" x="33" y="333" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="カレンダーのフリーアイコン2.png"/>
-                                <connections>
-                                    <segue destination="gCu-b1-Fzv" kind="show" id="dOC-xi-aBw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvb-c8-tyx">
-                                <rect key="frame" x="110" y="342" width="200" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
-                                <state key="normal" title="自分の日記を見る">
-                                    <color key="titleColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="gCu-b1-Fzv" kind="show" id="AhI-Ce-ULv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JP5-BQ-xqP">
-                                <rect key="frame" x="35" y="250" width="62" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="かわいい羽根のペンのアイコン素材2.png"/>
-                                <connections>
-                                    <segue destination="gU2-OI-YBs" kind="show" id="Ffh-03-0rQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34I-Qd-LTp">
-                                <rect key="frame" x="99" y="258" width="150" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
-                                <state key="normal" title="日記を書く">
-                                    <color key="titleColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="gU2-OI-YBs" kind="show" id="d2U-G2-lQM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jND-sF-zYJ">
-                                <rect key="frame" x="33" y="418" width="64" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="アンケートシートのフリーアイコン.png"/>
-                                <connections>
-                                    <segue destination="XOd-wf-7uk" kind="show" id="oG9-hA-Hiv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ON3-ow-GNW">
-                                <rect key="frame" x="35" y="582" width="62" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="設定の歯車アイコン　その2.png"/>
-                                <connections>
-                                    <segue destination="Rbg-97-lTE" kind="show" id="uTq-ns-ilU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZK7-sc-17Q">
-                                <rect key="frame" x="110" y="426" width="200" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
-                                <state key="normal" title="友達の日記を見る">
-                                    <color key="titleColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="XOd-wf-7uk" kind="showDetail" id="4Gl-G7-eh8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qD2-u7-erY">
-                                <rect key="frame" x="110" y="508" width="239" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
-                                <state key="normal" title="友達のQRを読み込む">
-                                    <color key="titleColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="QU4-bk-bbu" kind="showDetail" id="8tM-4E-wSU"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4m8-Nh-B8H">
-                                <rect key="frame" x="33" y="499" width="64" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="インストールアイコン.png"/>
-                                <connections>
-                                    <segue destination="QU4-bk-bbu" kind="showDetail" id="iZo-H3-qb5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYF-sH-E7m">
-                                <rect key="frame" x="110" y="589" width="50" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
-                                <state key="normal" title="設定">
-                                    <color key="titleColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Rbg-97-lTE" kind="show" id="fsa-m6-XAn"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rke-Hh-nBS">
-                                <rect key="frame" x="33" y="75" width="308" height="157"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="YZM-bN-aE8"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tQx-KZ-eF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="ctW-qw-W4k" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Calendar" image="1xSmallCalendar.png" id="tbZ-ff-U1V" colorLabel="IBBuiltInLabel-Orange">
+                        <color key="badgeColor" red="1" green="0.29803921570000003" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2nz-4T-Gtc">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.94117647059999998" green="0.98431372549999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gCu-b1-Fzv" kind="relationship" relationship="rootViewController" id="YbD-nI-R0h"/>
+                    </connections>
+                </navigationController>
             </objects>
-            <point key="canvasLocation" x="-353" y="-72"/>
+            <point key="canvasLocation" x="-486" y="634"/>
         </scene>
         <!--Calendar View Controller-->
         <scene sceneID="tVz-X7-bap">
@@ -141,7 +44,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hk1-Ax-YO0">
-                                <rect key="frame" x="5" y="238" width="365" height="311"/>
+                                <rect key="frame" x="5" y="241" width="365" height="311"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kpz-4b-JNx">
@@ -162,63 +65,63 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXk-kU-T4v">
-                                <rect key="frame" x="3" y="202" width="53" height="28"/>
+                                <rect key="frame" x="3" y="205" width="53" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="23"/>
                                 <color key="textColor" red="0.1803921568627451" green="0.58039215686274503" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOD-g9-lb8">
-                                <rect key="frame" x="56" y="202" width="53" height="28"/>
+                                <rect key="frame" x="56" y="205" width="53" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="23"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwk-hO-p3f">
-                                <rect key="frame" x="108" y="202" width="53" height="28"/>
+                                <rect key="frame" x="108" y="205" width="53" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="23"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIX-at-VW4">
-                                <rect key="frame" x="161" y="202" width="53" height="28"/>
+                                <rect key="frame" x="161" y="205" width="53" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="23"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZA-1o-wgp">
-                                <rect key="frame" x="214" y="202" width="53" height="28"/>
+                                <rect key="frame" x="214" y="205" width="53" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="23"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUu-rG-6qT">
-                                <rect key="frame" x="266" y="202" width="53" height="28"/>
+                                <rect key="frame" x="266" y="205" width="53" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="23"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mo7-dO-dhp">
-                                <rect key="frame" x="318" y="202" width="53" height="28"/>
+                                <rect key="frame" x="318" y="205" width="53" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="23"/>
                                 <color key="textColor" red="0.1803921568627451" green="0.58039215686274503" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIq-Jh-t41">
-                                <rect key="frame" x="92" y="161" width="190" height="24"/>
+                                <rect key="frame" x="92" y="164" width="190" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="23"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OoJ-Uw-kqb">
-                                <rect key="frame" x="320" y="152" width="31" height="42"/>
+                                <rect key="frame" x="320" y="155" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="&gt;&gt;">
@@ -229,7 +132,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31u-lC-MHh">
-                                <rect key="frame" x="23" y="152" width="31" height="42"/>
+                                <rect key="frame" x="23" y="155" width="31" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="&lt;&lt;">
@@ -240,7 +143,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="日記一覧" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAV-cF-pqY">
-                                <rect key="frame" x="137" y="96" width="100" height="34"/>
+                                <rect key="frame" x="137" y="99" width="100" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -250,6 +153,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="emd-1p-wpu"/>
                     </view>
+                    <navigationItem key="navigationItem" id="vEg-k7-GM7"/>
                     <connections>
                         <outlet property="dateLabel" destination="GIq-Jh-t41" id="zkW-Oy-6Vu"/>
                         <outlet property="jigetsuButton" destination="OoJ-Uw-kqb" id="CGM-d7-I1R"/>
@@ -260,7 +164,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IIk-Zu-aL3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="714" y="1694"/>
+            <point key="canvasLocation" x="297" y="634"/>
+        </scene>
+        <!--Friends-->
+        <scene sceneID="Rsb-vV-hmj">
+            <objects>
+                <navigationController id="Z9w-Z4-p3X" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Friends" image="1xSmallFriend's.png" id="I8i-7J-ghS"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BWY-Ct-Cqo">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.94117647059999998" green="0.98431372549999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XOd-wf-7uk" kind="relationship" relationship="rootViewController" id="ht5-1b-T07"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QSO-Tl-rXh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-527" y="1365"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="crR-th-DLT">
@@ -298,10 +220,29 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="oke-Qv-Oup"/>
                     </view>
+                    <navigationItem key="navigationItem" id="gp5-RW-v1T"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QDI-uV-a1X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1736.8" y="960.2698650674663"/>
+            <point key="canvasLocation" x="297" y="1364"/>
+        </scene>
+        <!--QR-->
+        <scene sceneID="caD-62-zio">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qyQ-4c-drd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="qFQ-h4-yyc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="QR" image="1xSmallReadQR.png" id="RLO-PS-VL9"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kba-Xd-r8I">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.94117647059999998" green="0.98431372549999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="QU4-bk-bbu" kind="relationship" relationship="rootViewController" id="g0r-Hr-Vta"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-527" y="2085"/>
         </scene>
         <!--ReadQR View Controller-->
         <scene sceneID="7HV-Iu-gex">
@@ -352,10 +293,11 @@ QRコードを表示してもらってください</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uLc-h6-iss"/>
                     </view>
+                    <navigationItem key="navigationItem" id="F9g-se-6br"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aUz-sy-Gmw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2525.5999999999999" y="961.16941529235385"/>
+            <point key="canvasLocation" x="297" y="2085"/>
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="8bs-5I-PeC">
@@ -422,7 +364,7 @@ QRコードを表示してもらってください</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n8r-1B-n6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="826" y="829"/>
+            <point key="canvasLocation" x="1041" y="2765"/>
         </scene>
         <!--Content View Controller-->
         <scene sceneID="upk-zJ-bQr">
@@ -433,34 +375,26 @@ QRコードを表示してもらってください</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="タイトル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yC3-6b-X90">
-                                <rect key="frame" x="16" y="373" width="73" height="24"/>
+                                <rect key="frame" x="16" y="366" width="73" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="18"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5B-z2-8eN">
-                                <rect key="frame" x="16" y="436" width="37" height="24"/>
+                                <rect key="frame" x="16" y="403" width="37" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="18"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g9H-2j-u6g">
-                                <rect key="frame" x="108" y="92" width="253" height="253"/>
+                                <rect key="frame" x="108" y="85" width="253" height="253"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9332516193" green="0.93338567019999996" blue="0.93322223419999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHX-8p-2sD">
-                                <rect key="frame" x="16" y="401" width="343" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="17"/>
-                                <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2t-hj-gXb">
-                                <rect key="frame" x="16" y="464" width="343" height="171"/>
+                                <rect key="frame" x="16" y="431" width="343" height="171"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text" base64-UTF8="YES">
@@ -471,35 +405,35 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="◯" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGm-jq-nef">
-                                <rect key="frame" x="24" y="94" width="25" height="34"/>
+                                <rect key="frame" x="24" y="87" width="25" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="の日記" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKZ-QX-orj">
-                                <rect key="frame" x="24" y="161" width="57" height="26"/>
+                                <rect key="frame" x="24" y="154" width="57" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="19"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="／" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9b-NO-P7O">
-                                <rect key="frame" x="35" y="99" width="40" height="54"/>
+                                <rect key="frame" x="35" y="92" width="40" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="40"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="◯" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZf-gF-uGA">
-                                <rect key="frame" x="58" y="124" width="39" height="34"/>
+                                <rect key="frame" x="58" y="117" width="39" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6T4-zG-1Ti">
-                                <rect key="frame" x="30" y="285" width="50" height="60"/>
+                                <rect key="frame" x="30" y="278" width="50" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="ふたの開いたゴミ箱のアイコン.png"/>
                                 <connections>
@@ -507,13 +441,21 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeA-n1-T4Y">
-                                <rect key="frame" x="22" y="206" width="60" height="60"/>
+                                <rect key="frame" x="22" y="199" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="シェイクアイコン2.png"/>
                                 <connections>
                                     <action selector="share:" destination="av7-Of-iH0" eventType="touchUpInside" id="GED-8Z-UG5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHX-8p-2sD">
+                                <rect key="frame" x="97" y="365" width="264" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="17"/>
+                                <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="X89-AQ-fdX"/>
@@ -530,7 +472,7 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8kD-6N-eIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1456.8" y="1693.4032983508248"/>
+            <point key="canvasLocation" x="1040.8" y="633.73313343328346"/>
         </scene>
         <!--Share View Controller-->
         <scene sceneID="nNX-ry-Ti5">
@@ -565,7 +507,7 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hvx-U9-pdM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2214" y="1694"/>
+            <point key="canvasLocation" x="1737" y="634"/>
         </scene>
         <!--Scan View Controller-->
         <scene sceneID="OY6-Tw-CKR">
@@ -580,7 +522,7 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="luf-CZ-FBD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3319" y="961"/>
+            <point key="canvasLocation" x="1041" y="2085"/>
         </scene>
         <!--Item-->
         <scene sceneID="DWC-eB-4Yl">
@@ -598,7 +540,7 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="8VK-c3-Th9">
-                                <rect key="frame" x="16" y="159" width="343" height="30"/>
+                                <rect key="frame" x="97" y="124" width="262" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.9332516193" green="0.93338567019999996" blue="0.93322223419999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -607,7 +549,7 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JKl-2S-fkg">
-                                <rect key="frame" x="16" y="229" width="343" height="150"/>
+                                <rect key="frame" x="16" y="196" width="343" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.97652524709999999" blue="0.97635465860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.38823529410000002" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -615,21 +557,21 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYY-AW-5Pi">
-                                <rect key="frame" x="16" y="200" width="37" height="24"/>
+                                <rect key="frame" x="16" y="167" width="37" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="18"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="画像" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8Y-QR-fCj">
-                                <rect key="frame" x="16" y="389" width="37" height="24"/>
+                                <rect key="frame" x="16" y="348" width="37" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="18"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCh-av-37z">
-                                <rect key="frame" x="38" y="424" width="52" height="52"/>
+                                <rect key="frame" x="38" y="383" width="52" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="カメラアイコン9.png"/>
                                 <connections>
@@ -637,7 +579,7 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sw-xa-uWW">
-                                <rect key="frame" x="38" y="493" width="52" height="52"/>
+                                <rect key="frame" x="38" y="452" width="52" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="写真アイコン8.png"/>
                                 <connections>
@@ -651,18 +593,18 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7xJ-rd-6Wg">
+                                <rect key="frame" x="128" y="379" width="231" height="226"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9332516193" green="0.93338567019999996" blue="0.93322223419999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lx9-nZ-GDi">
-                                <rect key="frame" x="144" y="82" width="139" height="30"/>
+                                <rect key="frame" x="97" y="82" width="139" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7xJ-rd-6Wg">
-                                <rect key="frame" x="128" y="420" width="231" height="226"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9332516193" green="0.93338567019999996" blue="0.93322223419999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YYb-D8-t0g"/>
@@ -685,7 +627,7 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cv8-a7-XwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-854" y="1184"/>
+            <point key="canvasLocation" x="1040.8" y="-107.49625187406298"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="kdj-dG-r0Z">
@@ -695,10 +637,16 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.18039215689999999" green="0.58039215690000001" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.94117647058823528" green="0.98431372549019602" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.18039215689999999" green="0.58039215690000001" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="K0R-sX-F38" kind="relationship" relationship="viewControllers" id="pgX-4Q-vqc"/>
+                        <segue destination="ctW-qw-W4k" kind="relationship" relationship="viewControllers" id="qu5-w9-KYM"/>
                         <segue destination="7iL-I8-Xxx" kind="relationship" relationship="viewControllers" id="ouR-gA-A7F"/>
+                        <segue destination="qFQ-h4-yyc" kind="relationship" relationship="viewControllers" id="Ba4-Q8-YKl"/>
+                        <segue destination="Z9w-Z4-p3X" kind="relationship" relationship="viewControllers" id="EOP-UQ-Xdv"/>
+                        <segue destination="K0R-sX-F38" kind="relationship" relationship="viewControllers" id="pgX-4Q-vqc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vcY-er-p5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -718,17 +666,18 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3bJ-Ig-Gc9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2020" y="-125"/>
+            <point key="canvasLocation" x="1737" y="2765"/>
         </scene>
-        <!--Item-->
+        <!--Setting-->
         <scene sceneID="DYG-FA-bJm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K0R-sX-F38" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="4qR-xC-5Kr"/>
+                    <tabBarItem key="tabBarItem" title="Setting" image="1xSmallSetting.png" id="4qR-xC-5Kr"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DzC-dS-VsG">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.94117647059999998" green="0.98431372549999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -737,16 +686,17 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OVQ-Nu-4Gw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-20" y="763"/>
+            <point key="canvasLocation" x="297" y="2765"/>
         </scene>
-        <!--Item-->
+        <!--Write-->
         <scene sceneID="Mc6-Ak-TnZ">
             <objects>
                 <navigationController id="7iL-I8-Xxx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="KRt-uS-J2B"/>
+                    <tabBarItem key="tabBarItem" title="Write" image="1xSmallWrite.png" id="KRt-uS-J2B"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rWO-uH-l8b">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.94117647059999998" green="0.98431372549999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="gU2-OI-YBs" kind="relationship" relationship="rootViewController" id="W0y-BR-dC2"/>
@@ -754,28 +704,24 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EGl-ef-ps2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1798" y="780"/>
+            <point key="canvasLocation" x="298" y="-107"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1xSmallCalendar.png" width="25" height="25"/>
+        <image name="1xSmallFriend's.png" width="25" height="25"/>
+        <image name="1xSmallReadQR.png" width="25" height="25"/>
+        <image name="1xSmallSetting.png" width="25" height="25"/>
+        <image name="1xSmallWrite.png" width="25" height="25"/>
         <image name="tweetbird.png" width="256" height="256"/>
-        <image name="かわいい羽根のペンのアイコン素材2.png" width="256" height="256"/>
         <image name="ふたの開いたゴミ箱のアイコン.png" width="215" height="256"/>
-        <image name="アンケートシートのフリーアイコン.png" width="256" height="256"/>
-        <image name="インストールアイコン.png" width="256" height="256"/>
         <image name="カメラアイコン9.png" width="256" height="256"/>
-        <image name="カレンダーのフリーアイコン2.png" width="256" height="256"/>
         <image name="シェイクアイコン2.png" width="256" height="256"/>
         <image name="写真アイコン8.png" width="256" height="256"/>
         <image name="段ボール箱　12.png" width="256" height="256"/>
-        <image name="設定の歯車アイコン　その2.png" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ffh-03-0rQ"/>
-        <segue reference="G2M-ND-jpV"/>
-        <segue reference="8tM-4E-wSU"/>
-        <segue reference="4Gl-G7-eh8"/>
-        <segue reference="AhI-Ce-ULv"/>
+        <segue reference="YbD-nI-R0h"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1803921568627451" green="0.58039215686274503" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
