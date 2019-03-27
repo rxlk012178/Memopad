@@ -130,8 +130,28 @@ class CalendarViewController: UIViewController, UICollectionViewDelegate, UIColl
         day = cell!.tag
         
         if day != 0 {
+             let diaries = saveData.array(forKey: "diary") as? [[String: Any]] ?? []
+            // このセル日付に予定があればdiaryに入る
+            let diary = diaries.filter { diary in
+                guard let date = diary["date"] as? Date else { return false }
+                return date.year == self.year && date.month == self.month && date.day == self.day
+                }.first
             
-              performSegue(withIdentifier: "toContentView", sender: nil)
+            if diary != nil {
+                performSegue(withIdentifier: "toContentView", sender: nil)
+            } else {
+                // 日付が入っていない時
+                let alert: UIAlertController = UIAlertController(title: "日記が書かれていません", message: "内容がないため、\n日記の詳細を表示できません", preferredStyle:  UIAlertControllerStyle.alert)
+                alert.addAction(
+                            UIAlertAction(
+                                    title: "OK", style: .default, handler: { action in
+                                        // ボタンが押された時の動作
+                                        print("OK")
+                            }
+                )
+            )
+                present(alert, animated: true, completion: nil)
+            }
         }
         
     }
