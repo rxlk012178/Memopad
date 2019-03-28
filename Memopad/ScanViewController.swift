@@ -11,6 +11,8 @@ import AVFoundation
 
 class ScanViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
+    @IBOutlet weak var btn: UIButton!
+    
     // これいる
     // 読み取ったQRコードの内容を前の画面に返すために使う
     var resultHandler: ((String) -> Void)?
@@ -21,6 +23,8 @@ class ScanViewController: UIViewController, AVCaptureMetadataOutputObjectsDelega
     var qrCodeFrameView:UIView!
     
     var scanString: String!
+    
+    
     
     private let supportedCodeTypes = [AVMetadataObject.ObjectType.upce,
                                       AVMetadataObject.ObjectType.code39,
@@ -38,6 +42,8 @@ class ScanViewController: UIViewController, AVCaptureMetadataOutputObjectsDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         // カメラ起動準備
         let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInWideAngleCamera], mediaType: AVMediaType.video, position: .back)
@@ -102,6 +108,10 @@ class ScanViewController: UIViewController, AVCaptureMetadataOutputObjectsDelega
             view.addSubview(qrCodeFrameView)
             view.bringSubview(toFront: qrCodeFrameView)
         }
+        
+        
+        self.view.bringSubview(toFront: btn)
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -166,4 +176,8 @@ class ScanViewController: UIViewController, AVCaptureMetadataOutputObjectsDelega
         }
     }
     
+
+    @IBAction func cancelBtn(){
+        self.dismiss(animated: true, completion: nil)
+    }
 }

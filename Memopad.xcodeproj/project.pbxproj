@@ -36,6 +36,7 @@
 		DB80F2B0224A07B900EEBD97 /* Friend's@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB80F2AD224A07B900EEBD97 /* Friend's@1x.png */; };
 		DB80F2B1224A07B900EEBD97 /* Friend's@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB80F2AE224A07B900EEBD97 /* Friend's@2x.png */; };
 		DB80F2B3224A09FE00EEBD97 /* Exlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB80F2B2224A09FE00EEBD97 /* Exlogo.png */; };
+		DB80F2B5224B105000EEBD97 /* UIImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = DB80F2B4224B104F00EEBD97 /* UIImageView.png */; };
 		DBD705D821311D130018C977 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD705D721311D130018C977 /* TableViewController.swift */; };
 		DBEC978A20AFF13A004A4D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC978920AFF13A004A4D44 /* AppDelegate.swift */; };
 		DBEC978C20AFF13A004A4D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC978B20AFF13A004A4D44 /* ViewController.swift */; };
@@ -96,6 +97,7 @@
 		DB80F2AD224A07B900EEBD97 /* Friend's@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Friend's@1x.png"; path = "../../../../../exchanjour素材/Friend's@1x.png"; sourceTree = "<group>"; };
 		DB80F2AE224A07B900EEBD97 /* Friend's@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Friend's@2x.png"; path = "../../../../../exchanjour素材/Friend's@2x.png"; sourceTree = "<group>"; };
 		DB80F2B2224A09FE00EEBD97 /* Exlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Exlogo.png; path = ../../../../Exlogo.png; sourceTree = "<group>"; };
+		DB80F2B4224B104F00EEBD97 /* UIImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIImageView.png; sourceTree = "<group>"; };
 		DBD705D721311D130018C977 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DBEC978620AFF13A004A4D44 /* Memopad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memopad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEC978920AFF13A004A4D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				DB2D17B621C4DBD300571F90 /* 段ボール箱　12.png */,
 				DB2D17B421C4CC4C00571F90 /* ふたの開いたゴミ箱のアイコン.png */,
 				DB80F2B2224A09FE00EEBD97 /* Exlogo.png */,
+				DB80F2B4224B104F00EEBD97 /* UIImageView.png */,
 				DB55DB19220EE3060082FDA6 /* Friend'S */,
 				DB55DAE3220EE1130082FDA6 /* Calendar */,
 				DB55DB12220EE1C20082FDA6 /* Write */,
@@ -391,6 +394,7 @@
 				DB2D17B921C4DC0200571F90 /* tweetbird.png in Resources */,
 				DB2D17B521C4CC4C00571F90 /* ふたの開いたゴミ箱のアイコン.png in Resources */,
 				DB80F2B3224A09FE00EEBD97 /* Exlogo.png in Resources */,
+				DB80F2B5224B105000EEBD97 /* UIImageView.png in Resources */,
 				DB2D17B721C4DBD300571F90 /* 段ボール箱　12.png in Resources */,
 				DB80F2572249B99B00EEBD97 /* かわいい羽根のペンのアイコン素材2.png in Resources */,
 				DBEC97C020B0FD4B004A4D44 /* 写真アイコン8.png in Resources */,

@@ -131,7 +131,16 @@ class MemoViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
                 handler: { action in
                     // ボタンが押されたときの動作
                     self.navigationController?.popViewController(animated: true)
+                    // textfieldを空にする
+                    self.datetextField.text = ""
+                    self.titleTextField.text = ""
+                    self.contentTextView.text = ""
+                    self.contentImageView.removeFromSuperview()
+                    
+                    
             }))
+        
+       
         present(alert, animated: true, completion: nil)
     }
     
