@@ -8,6 +8,15 @@
 
 import UIKit
 
+extension UIViewController {
+    
+    func setSwipeBack() {
+        let target = self.navigationController?.value(forKey: "_cachedInteractionController")
+        let recognizer = UIPanGestureRecognizer(target: target, action: Selector(("handleNavigationTransition:")))
+        self.view.addGestureRecognizer(recognizer)
+    }
+}
+
 class ContentViewController: UIViewController {
     
     @IBOutlet var monthLabel:UILabel!
@@ -31,6 +40,7 @@ class ContentViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setSwipeBack()
 
         // Do any additional setup after loading the view.
         monthLabel.text = String(month!)

@@ -37,6 +37,7 @@
 		DB80F2B1224A07B900EEBD97 /* Friend's@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB80F2AE224A07B900EEBD97 /* Friend's@2x.png */; };
 		DB80F2B3224A09FE00EEBD97 /* Exlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB80F2B2224A09FE00EEBD97 /* Exlogo.png */; };
 		DB80F2B5224B105000EEBD97 /* UIImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = DB80F2B4224B104F00EEBD97 /* UIImageView.png */; };
+		DB80F2B9224C8D2E00EEBD97 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80F2B8224C8D2E00EEBD97 /* TutorialViewController.swift */; };
 		DBD705D821311D130018C977 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD705D721311D130018C977 /* TableViewController.swift */; };
 		DBEC978A20AFF13A004A4D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC978920AFF13A004A4D44 /* AppDelegate.swift */; };
 		DBEC978C20AFF13A004A4D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEC978B20AFF13A004A4D44 /* ViewController.swift */; };
@@ -98,6 +99,7 @@
 		DB80F2AE224A07B900EEBD97 /* Friend's@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Friend's@2x.png"; path = "../../../../../exchanjour素材/Friend's@2x.png"; sourceTree = "<group>"; };
 		DB80F2B2224A09FE00EEBD97 /* Exlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Exlogo.png; path = ../../../../Exlogo.png; sourceTree = "<group>"; };
 		DB80F2B4224B104F00EEBD97 /* UIImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIImageView.png; sourceTree = "<group>"; };
+		DB80F2B8224C8D2E00EEBD97 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		DBD705D721311D130018C977 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DBEC978620AFF13A004A4D44 /* Memopad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memopad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEC978920AFF13A004A4D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				DBFA705721B26BBA00AE48AA /* ScanViewController.swift */,
 				DB6B6E2E217B205400B6E707 /* SettingViewController.swift */,
 				DB6A43AA212A609200731B32 /* Date+.swift */,
+				DB80F2B8224C8D2E00EEBD97 /* TutorialViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				DB6A43A9212909E600731B32 /* ContentViewController.swift in Sources */,
 				DB1AE34D2143B8E10074C8C7 /* ShareViewController.swift in Sources */,
 				DBEC97B820AFF282004A4D44 /* MemoViewController.swift in Sources */,
+				DB80F2B9224C8D2E00EEBD97 /* TutorialViewController.swift in Sources */,
 				DB1C30B42156137E00035A51 /* ReadQRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

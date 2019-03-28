@@ -326,6 +326,9 @@ QRコードを表示してもらってください</string>
                                 <state key="normal" title="使い方">
                                     <color key="titleColor" red="0.29408878090000001" green="0.29413610699999998" blue="0.29407837990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wYT-E3-Nl9" kind="show" id="kqy-QF-r86"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLD-d6-8fA">
                                 <rect key="frame" x="99" y="287" width="175" height="46"/>
@@ -502,7 +505,7 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSn-6U-Df6">
-                                <rect key="frame" x="111" y="565" width="153" height="63"/>
+                                <rect key="frame" x="111" y="554" width="153" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.18039215689999999" green="0.58039215690000001" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="GenEiLateMin-M" family="GenEi LateMin" pointSize="25"/>
@@ -736,6 +739,40 @@ bGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwNbGFiZWwR4oCobGFiZWwNbGFiZWw
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EGl-ef-ps2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1236" y="-107"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="OGE-7A-2M1">
+            <objects>
+                <viewController id="wYT-E3-Nl9" customClass="TutorialViewController" sceneMemberID="viewController">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="JmF-Xe-0E5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VJm-FB-05T">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="787"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="787" id="dWR-4b-uuu"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="787" id="mEy-KN-5wk"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="787" id="qBj-fq-gI7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="VJm-FB-05T" secondAttribute="bottom" id="Igg-Xu-bWU"/>
+                            <constraint firstAttribute="trailing" secondItem="VJm-FB-05T" secondAttribute="trailing" id="QBY-Le-lcv"/>
+                            <constraint firstItem="VJm-FB-05T" firstAttribute="top" secondItem="JmF-Xe-0E5" secondAttribute="top" id="SzA-KM-tny"/>
+                            <constraint firstItem="VJm-FB-05T" firstAttribute="leading" secondItem="JmF-Xe-0E5" secondAttribute="leading" id="mLh-93-DiZ"/>
+                            <constraint firstItem="VJm-FB-05T" firstAttribute="top" secondItem="JmF-Xe-0E5" secondAttribute="top" id="oDl-zc-fFs"/>
+                            <constraint firstItem="VJm-FB-05T" firstAttribute="width" secondItem="JmF-Xe-0E5" secondAttribute="width" id="x0C-qH-UmY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TOQ-7C-qDN"/>
+                    </scrollView>
+                    <size key="freeformSize" width="375" height="900"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tnt-gZ-tCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="386.39999999999998" y="2916.3418290854574"/>
         </scene>
     </scenes>
     <resources>
